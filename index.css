@@ -1,0 +1,70 @@
+body {
+    background-image: url("loewe.webp");
+    background-size: cover;
+    font-family: 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* Remove default body margin for a cleaner look */
+}
+
+.container {
+    background: #f7f7f7; /* Matches Fashion's neutral background color */
+    max-width: 80%;
+    margin: auto;
+    border: 1px solid #e5e5e5; /* Light border for separation */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'MatchesFashionFont', sans-serif; /* Replace 'MatchesFashionFont' with an actual Matches Fashion font if available */
+    color: #333; /* Matches Fashion's primary text color */
+}
+
+h2 {
+    font-size: 36px; /* Slightly reduce the font size for a cleaner look */
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #3B8169; /* Matches Fashion's accent color for emphasis */
+}
+
+button {
+    border: 1px solid #3B8169; /* Border color matches the accent color */
+    padding: 10px 20px;
+    font-weight: 700;
+    width: 200px;
+    margin-bottom: 10px; /* Slightly increased margin for better spacing */
+    border-radius: 5px;
+    cursor: pointer; /* Change cursor to pointer to indicate interactivity */
+    background-color: #fff; /* Background color matches the body background for a clean look */
+    color: #3B8169; /* Text color matches the accent color */
+    transition: background-color 0.3s, color 0.3s; /* Add smooth transition for a polished feel */
+}
+
+button:hover {
+    background-color: #3B8169; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+#save-btn {
+    background: #3B8169;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 700;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#save-btn:hover {
+    background-color: #fff;
+    color: #3B8169;
+}

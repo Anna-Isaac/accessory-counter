@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Fashion Wishlist Counter</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Fashion Wishlist Counter</h1>
+        <div id="wishlist-container">
+            <h2 id="count-el">0</h2>
+            <button id="increment-btn" onclick="increment()">Add to wishlist</button>
+            </div>
+
+        <div id="category-container">
+            <label for="category-select">Select Category:</label>
+            <select id="category-select">
+                <option value="shoes">Shoes</option>
+                <option value="dresses">Dresses</option>
+                <option value="accessories">Accessories</option>
+                <!-- Add more categories as needed -->
+            </select>
+        </div>
+        <button id="save-btn" onclick="save()">Save to wishlist</button>
+        <p id="save-el">Previous wishlists: </p>
+    </div>
+    <script src="wishlist.js"></script>
+</body>
+
+</html>
